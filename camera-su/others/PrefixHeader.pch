@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  camera-su
+//
+//  Created by 苏文潇 on 2020/3/29.
+//  Copyright © 2020 we_shell. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import "WSCommon.h"
+//    #import "WSPreView.h"
+//    #import "WSOverlayView.h"
+//    #import "WSCameraViewController.h"
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
